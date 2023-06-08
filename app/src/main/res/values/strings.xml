@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android Exercise Submission</string>
+    <string name="section_one">AppBar/ActionBar/ToolBar</string>
+    <string name="section_two">RecyclerView</string>
+    <string name="section_three">NavigationDrawer</string>
+    <string name="section_four">BottomNavigation</string>
+    <string name="section_five">TabLayout</string>
+    <string name="section_six">JSON API &amp; Retrofit</string>
+    <string name="section_seven">ViewModel</string>
+    <string name="section_eight">SharedPreference</string>
+    <string name="section_nine">Animation</string>
+    <string name="section_ten">Brain Trainer App</string>
+    <string name="section_eleven">Room</string>
+    <string name="section_twelve">AlarmManager</string>
+    <string name="section_thirteen">WorkManager</string>
+    <string name="feature_info">*Red color indicate the feature is not implemented</string>
+</resources>

@@ -19,5 +19,9 @@ class MainActivity : AppCompatActivity() {
     binding.sectionOneMaterialButton.setOnClickListener {
       startActivity(Intent(this, CustomAppBarActivity::class.java))
     }
+
+    binding.sectionSixMaterialButton.setOnClickListener {
+      startActivity(Intent(this, CustomRetrofitActivity::class.java))
+    }
   }
 }

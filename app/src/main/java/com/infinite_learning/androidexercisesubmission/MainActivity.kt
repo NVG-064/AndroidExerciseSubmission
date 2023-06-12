@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
       startActivity(Intent(this, CustomAppBarActivity::class.java))
     }
 
+    binding.sectionFourMaterialButton.setOnClickListener {
+      startActivity(Intent(this, CustomBottomNavigationBarActivity::class.java))
+    }
+
     binding.sectionSixMaterialButton.setOnClickListener {
       startActivity(Intent(this, CustomRetrofitActivity::class.java))
     }

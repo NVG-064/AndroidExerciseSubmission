@@ -3,6 +3,7 @@ package com.infinite_learning.androidexercisesubmission
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.infinite_learning.androidexercisesubmission.customretrofit.QuotesApi
 import com.infinite_learning.androidexercisesubmission.customretrofit.RetrofitHelper
 import com.infinite_learning.androidexercisesubmission.databinding.ActivityCustomRetrofitBinding
@@ -24,6 +25,7 @@ class CustomRetrofitActivity : AppCompatActivity() {
       val result = quotesApi.getQuotes()
       if (result != null) {
         Log.d("Retrofit", result.body().toString())
+//        Toast.makeText(this@CustomRetrofitActivity, "GET success. See logcat for more", Toast.LENGTH_SHORT).show()
       }
     }
   }

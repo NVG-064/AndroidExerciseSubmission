@@ -20,12 +20,24 @@ class MainActivity : AppCompatActivity() {
       startActivity(Intent(this, CustomAppBarActivity::class.java))
     }
 
+    binding.sectionThreeMaterialButton.setOnClickListener {
+      startActivity(Intent(this, CustomNavigationDrawerActivity::class.java))
+    }
+
     binding.sectionFourMaterialButton.setOnClickListener {
       startActivity(Intent(this, CustomBottomNavigationBarActivity::class.java))
     }
 
+    binding.sectionFiveMaterialButton.setOnClickListener {
+      startActivity(Intent(this, CustomTabLayout::class.java))
+    }
+
     binding.sectionSixMaterialButton.setOnClickListener {
       startActivity(Intent(this, CustomRetrofitActivity::class.java))
+    }
+
+    binding.sectionSevenMaterialButton.setOnClickListener {
+      startActivity(Intent(this, CustomViewModelActivity::class.java))
     }
   }
 }
